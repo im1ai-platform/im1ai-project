@@ -34,10 +34,21 @@ Structure the entire im1ai.ca platform using isolated modules, each with:
 
 ```plaintext
 im1ai-platform/
-├── entrancepage/
-├── visitroom/
-├── studyroom/
-├── thoughtlens/
+├── modules/
+│   ├── entrancepage/
+│   ├── visitroom/
+│   ├── studyroom/
+│   ├── thoughtlens/
 ├── commonshare/
+│   ├── auth-lib/
+│   ├── config-lib/
+│   ├── navigation-lib/
+│   ├── shared-ui/
 ├── architecture/
+│   └── Modular_System_Design.ichip.md
 ├── meta/
+│   ├── Project_Roadmap.md
+│   └── Contributor_Guide.md
+├── README.md
+
+
