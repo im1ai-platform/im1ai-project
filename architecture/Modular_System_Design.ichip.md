@@ -44,6 +44,7 @@ im1ai-platform/
 │   ├── config-lib/
 │   ├── navigation-lib/
 │   ├── shared-ui/
+│   │   └── WaterdropButton.js        <-- This line is missing from your blueprint          
 ├── architecture/
 │   └── Modular_System_Design.ichip.md
 ├── meta/
